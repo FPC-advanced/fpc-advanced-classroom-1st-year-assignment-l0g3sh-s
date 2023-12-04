@@ -1,0 +1,31 @@
+ Processing command: b main
+ HandleCommand, cmd_obj : '_regexp-break'
+ HandleCommand, (revised) command_string: '_regexp-break main'
+ HandleCommand, wants_raw_input:'True'
+ HandleCommand, command line after removing command name(s): 'main'
+ Processing command: breakpoint set --name 'main'
+ HandleCommand, cmd_obj : 'breakpoint set'
+ HandleCommand, (revised) command_string: 'breakpoint set --name 'main''
+ HandleCommand, wants_raw_input:'False'
+ HandleCommand, command line after removing command name(s): '--name 'main''
+ 0x120e292c8 Broadcaster("lldb.target")::BroadcastEvent (event_sp = {0x122009228 Event: broadcaster = 0x12197ce00 (lldb.target), type = 0x00000001 (breakpoint-changed), data = {bkpt: 1 type: breakpoint added}}, unique =0) hijack = 0x0
+ Target::AddBreakpoint (internal = no) => break_id = 1: name = 'main'
+
+
+ Added location: 1.1: 
+  module = /Users/logesh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-l0g3sh-s/set03/problem06
+  symbol = main
+  address = problem06[0x0000000100003e6c]
+  resolved = false
+  hardware = false
+  hit count = 0   
+
+
+ HandleCommand, command succeeded
+ HandleCommand, command succeeded
+ Processing command: q
+ HandleCommand, cmd_obj : 'quit'
+ HandleCommand, (revised) command_string: 'quit'
+ HandleCommand, wants_raw_input:'False'
+ HandleCommand, command line after removing command name(s): ''
+ HandleCommand, command did not succeed
