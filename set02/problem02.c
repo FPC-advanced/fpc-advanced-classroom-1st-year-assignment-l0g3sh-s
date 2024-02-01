@@ -7,9 +7,9 @@ void input_side(int *side) {
 
 int check_scalene(int a, int b, int c) {
     if (a != b && b != c && a != c) {
-        return 1; // It's a scalene triangle
+        return 1; 
     } else {
-        return 0; // It's not a scalene triangle
+        return 0; 
     }
 }
 
